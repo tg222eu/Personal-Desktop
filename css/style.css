@@ -23,6 +23,8 @@ body{
   border-color: white;
   border: 1px solid rgb(189,190,189);
   border-top-color: white;
+  outline: 1px solid rgb(189,190,189);
+  height: 26px;
   width: 100%;
   bottom: 0;
 }
