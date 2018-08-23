@@ -29,15 +29,15 @@ body{
 }
 
 #startButton{
-  background-color: rgb(189,190,189);
   width: 50px;
   height: 18px;
+  float: left;
+
+  background-color: rgb(189,190,189);
+
   border: 1px solid rgb(223,223,223);
   border-right-color: rgb(128,128,128);
   border-bottom-color: rgb(128,128,128);
-
-  box-shadow: 0 -10px -1px black;
-  float: left;
 }
 
 /* Makes an extra border*/
@@ -53,4 +53,8 @@ body{
   border: 1px solid white;
   border-right-color: black;
   border-bottom-color: black;
+}
+
+#startlogo{
+  padding: 2px 2px;
 }
