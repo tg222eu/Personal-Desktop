@@ -4,16 +4,17 @@
 }
 
 #desktop{
-    background-color: yellow;
-    height: 100vh;
+    background-color: #008080;
+    height: calc(100vh - 25px);
 }
 
 #bar {
-    background-color: blue;
+    background-color: #c3c3c3;
     width: 100%;
     height: 25px;
 }
 
 body {
-	background-color: red;
+        margin: 0;
+        padding: 0;
 }
