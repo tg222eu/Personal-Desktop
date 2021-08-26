@@ -5,7 +5,7 @@
 
 #startMenu{
   position: absolute;
-  top: calc(100% - 125px);
+  top: calc(100% - 128px);
   left: 2px;
   
   visibility:hidden;
@@ -15,16 +15,39 @@
   height: 100px;
 }
 
+
+#startButton{
+    background-color: #c3c3c3; 
+    width: 44px;
+    height: 20px;
+    margin-top: 2px;
+    margin-left: 2px;
+    
+    border-top: 1px solid #dfdfdf;
+    border-left: 1px solid #dfdfdf;
+    border-right: 1px solid #848484;
+    border-bottom: 1px solid #848484;
+    
+    box-shadow: -1px -1px 0 white, 1px 1px 0 black;
+}
+
 #desktop{
     background-color: #008080;
-    height: calc(100vh - 25px);
+    height: calc(100vh - 28px);
 }
 
 #bar {
     background-color: #c3c3c3;
     width: 100%;
-    height: 25px;
+    height: 28px;
+
+    border-top-style: solid;
+    border-color: white;
+    border-top-width: 1px;
+    
 }
+
+
 
 body {
         margin: 0;
