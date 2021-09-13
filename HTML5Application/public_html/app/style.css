@@ -19,23 +19,35 @@
   height: 100px;
 }
 
+#rightClickMenu{
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  
+  visibility:hidden;
+  
+  background-color: #c3c3c3;
+  width: 100px;
+  height: 100px;
+}
+
 #startButton{
     background-color: #c3c3c3; 
     width: 44px;
-    height: 20px;
+    height: 18px;
     margin-top: 2px;
     margin-left: 2px;
-    padding: 2px;
+    padding: 0px;
+    align-content: center;
 
-    font-size: 10px;
+    font-size: 13px;
     font-weight: bold;
-    text-align: center;
+    white-space: nowrap; 
     
     border-top: 1px solid #dfdfdf; /*inner border*/
     border-left: 1px solid #dfdfdf;
     border-right: 1px solid #848484;
     border-bottom: 1px solid #848484;
-    
     box-shadow: -1px -1px 0 white, 1px 1px 0 black; /*outer border*/
     
 }
